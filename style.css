@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+}
+/* Top Navbar */
+.TopNav{
+    height: 9vh;
+    width: 100%;
+    background-color: #222222;
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    
+}
+.tab2{
+    margin-left: 60em;
+    position: fixed;
+    top: 7px;
+}
+.tab1{
+    margin-left: 5em;
+    position: fixed;
+    top: 8px;
+}
+/* Second Navbar */
+.SecondNav{
+    height: 12vh;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 2rem;
+    z-index: 1;
+    display: flex;
+}
+.iconlink{
+    color: white;
+    text-decoration: none;
+}
+.iconlink:hover{
+    color:orange;
+}
+img{
+    height: 60px;
+    font-size: small;
+    }
+    .tab3{
+        margin-left: 5.88rem;
+        margin-top: 0.30rem;
+    }
+    .textlink{
+        color:black;
+    text-decoration: none;
+    font-size: 1.47rem;
+    }
+    select{
+        background: none;
+        border: none;
+        outline: none;
+        cursor: pointer;
+
+    }
+    .otherlinks{
+        text-decoration: none;
+        color: black;
+        font-weight: 100;
+        font-size: 0.76rem;
+    }
+    .textlink:hover{
+        color: orange;
+    }
+    .tab4{
+        margin-left: 32rem;
+        margin-top: 0.35rem;
+    }
+    /* Hero Section */
+    .HeroSec{
+        height: 90vh;
+        width: 100%;
+        background-image: url("img/robert-noreiko-ONDyLki9a3E-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 6rem;
+        position: relative;
+        
+        
+        
+    }
+    .Para1{
+padding-top: 0.88rem;
+padding-left: 32rem;
+color: white;
+font-size: 1rem;
+text-transform: uppercase;
+position: absolute;
+top: 5rem;
+
+
+    }
+    .Blacklayer{
+        height:90vh ;
+        width: 100%;
+        background-color: #000;
+        opacity: 0.6;
+
+
+    }
+    h1{
+        position: absolute;
+        top: 8rem;
+        left: 23rem;
+        font-size: 3.48rem;
+        color: white;
+         
+    }
+    .Para2{
+        color:white;
+        position: absolute;
+        top:13rem ;
+        left: 20rem;
+        text-align: center;
+        line-height: 2rem;
+    }
+    .button1{
+        position: absolute;
+        top: 19rem;
+        left: 37rem;
+        width: 12vw;
+        height: 8vh;
+        background-color: #fab700;
+        border: none;
+        color: white;
+        font-weight: 800;
+        cursor: pointer;
+    }
+    .button1:hover{
+        background: none;
+        border: 1px solid white;
+    }
+    /* Main Section */
+    .mainsec{
+        height:100vh ;
+        width: 100%;
+        background-color: white;
+        
+        
+    }
+    
+    
+    .logolinks2{
+        color: #777777;
+        text-decoration: none;
+        cursor: pointer;
+        
+    }
+    .tab5{
+        position: absolute;
+        margin-left: 15rem;
+        margin-top: 10rem;
+        border: 1px solid #777777;
+        height: 5rem;
+        width: 5rem;
+        cursor: pointer;
+    }
+    .tab6{
+        position: absolute;
+        margin-left: 40rem;
+        margin-top: 10rem;
+        border: 1px solid #777777;
+        height: 5rem;
+        width: 5rem;
+        cursor: pointer;
+    }
+    .tab7{
+        position: absolute;
+        margin-left: 70rem;
+        margin-top: 10rem;
+        border: 1px solid #777777;
+        height: 5rem;
+        width: 5rem;
+        cursor: pointer;
+    }
+    .tab5:hover{
+        background-color: #fab700;
+    }
+    .tab6:hover{
+        background-color: #fab700;
+    }
+    .tab7:hover{
+        background-color: #fab700;
+    }
+    .tab8{
+        margin-left: 14.32rem;
+        padding-top: 18rem;
+        color: #222222;
+        position: absolute;
+    }
+    .tab9{
+        margin-left: 17.44rem;
+        color: #222222;
+        position: absolute;
+        padding-top: 18rem;
+        left: 21rem;
+    }
+    .tab10{
+        margin-left: 19.98rem;
+        color: #222222;
+        position: absolute;
+        padding-top: 18rem;
+        left: 48rem;
+        
+    }
+    .tab11{
+        position: absolute;
+        top: 62rem;
+        left: 62rem;
+        width: 25vw;
+        color: #777777;
+    }
+    .tab12{
+        position: absolute;
+        top: 62rem;
+        width: 25vw;
+        left: 33rem;
+        color: #777777;
+    }
+    .tab13{
+        position: absolute;
+        width: 25vw;
+        color: #777777;
+        top: 62rem;
+        left: 7rem;
+    }
+    /* main 2 */
+    .main2{
+        height:100vh ;
+        width: 100%;
+        background-color: white;
+        
+    }
+    .divpara1{
+        color: #fab700;
+        margin-left: 8rem;
+    }
+    h3{
+        margin-left: 8rem;
+        font-weight: 700;
+        font-size: 2.55rem;
+        margin-top: 1rem;
+    }
+    .divpara2{
+        
+        margin-left: 8rem;
+        margin-top: 2rem;
+    }
+    .divpara3{
+        
+        
+        margin-top: 0.32rem;
+        color: #777777;
+    }
+.tab15{
+    width: 39.99rem;
+    margin-left:7rem ;
+}
+.divbut{
+    width: 16vw;
+        height: 8vh;
+        background-color: #fab700;
+        border: none;
+        color: white;
+        font-weight: 800;
+        cursor: pointer;
+        margin-left: 8rem;
+        margin-top: 1rem;
+}
+.divbut:hover{
+    background: none;
+    border: 1px solid #fab700; 
+    color: #fab700;
+}
+.divinput{
+     height: 67vh;
+     width: 25vw;
+     background-image: url("img/istockphoto-482547997-612x612.webp");
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: absolute;
+     left:60rem;
+     top: 80rem;
+}
+  #inputpara1{
+    
+    color: white;
+    font-weight: 800;
+    
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size:1.22rem ;
+    
+  } 
+  #bordernone{
+    border: 1px solid white;
+    color: white;
+    width: 17rem;
+    height: 2rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+  } 
+ input{
+  
+        border: 1px solid white;
+        color: rgb(19, 18, 18);
+        width: 17rem;
+        height: 2rem;
+        margin-left: 2rem;
+        margin-top: 1rem;
+        background: none;
+        outline: none;
+        font-weight: 900;
+        padding-left: 1rem;
+        
+
+      
+ }
+ textarea{
+    background: none;
+    color: white;
+    border: 1px solid white;
+    margin-left:2rem ;
+    margin-top: 1rem;
+ }
+   .formbut{
+    width: 19.85vw;
+    height: 6vh;
+    background-color: #fab700;
+    border: none;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+    margin-left:2rem ;
+   }
+   .main3{
+    height:100vh ;
+    width: 100%;
+    background-color: white;
+    
+   }
+   .formbut:hover{
+    background: none;
+    border: 1px solid #fab700; 
+    color:#fab700;
+
+   }
+   .mainhead{
+    color: #222222;
+    font-size: 2.55rem;
+    margin-left: 25rem;
+   }
+   #mainpara{
+    margin-left: 32rem;
+    color: #777777;
+    margin-top: 1rem;
+   }
+   .img1{
+    height:30vh ;
+    width: 20vw;
+background-image: url("img/s1.jpg.webp");
+background-repeat: no-repeat;
+background-size: cover;
+position:relative;
+left: 8rem;
+top: 1.55rem;
+
+   }
+   .img2{
+    height:30vh ;
+    width: 20vw;
+    background-image: url("img/s2.jpg.webp");
+    background-repeat: no-repeat;
+background-size: cover;
+position:relative;
+left: 34rem;
+bottom: 10rem;
+
+   }
+   .img3{
+    height:30vh ;
+    width: 20vw;
+    background-image: url("img/s3.jpg.webp");
+    background-repeat: no-repeat;
+background-size: cover;
+position:relative;
+left: 58rem;
+bottom: 22rem;
+
+   }
+  #maintab{
+    position: absolute;
+    top: 137rem;
+    left: 8rem;
+    
+
+  } 
